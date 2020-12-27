@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Simple SVG Viewer</title>
+</head>
+
+<body>
+  <div id="dropArea">
+    <h2>Drop your svg here 👇</h2>
+  </div>
+  <div id="logArea"></div>
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

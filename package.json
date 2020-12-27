@@ -1,0 +1,22 @@
+{
+  "name": "simple-svg-viewer",
+  "version": "1.0.0",
+  "description": "A very minimal SVG viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "Electron",
+    "svg",
+    "image viewer"
+  ],
+  "author": "Pingu94  <pinascomarco@gmail.com> (https://www.pingudev.com/)",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-reload": "^1.5.0",
+    "jest": "^26.4.2"
+  }
+}
