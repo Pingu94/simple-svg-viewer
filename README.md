@@ -10,7 +10,7 @@ This is a very minimal SVG files viewer made with Electron.
 - npm start
 - Drag and drop an svg file inside the application
 
-![Svg Viewer example](img/dropSvgHere.png)
+![Svg Viewer example](img/drop_example.gif)
 
 ## To run tests
 
